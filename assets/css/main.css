@@ -4009,3 +4009,15 @@ input, select, textarea {
 .services-list li {
     margin-bottom: 0.5rem;
 }
+.logo img {
+    height: 60px;   /* Change this value to make it bigger or smaller */
+    width: auto;
+    display: block;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
