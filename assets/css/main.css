@@ -3997,3 +3997,27 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	.why-list,
+.services-list {
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+}
+
+.why-list li,
+.services-list li {
+    margin-bottom: 0.5rem;
+}
+.logo img {
+    height: 60px;   /* Change this value to make it bigger or smaller */
+    width: auto;
+    display: block;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
