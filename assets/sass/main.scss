@@ -440,7 +440,7 @@
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -448,6 +448,7 @@
 		opacity: 0;
 		width: 1em;
 		z-index: -1;
+	}
 
 		& + label {
 			@include icon(false, solid);
@@ -489,7 +490,7 @@
 				box-shadow: 0 0 0 2px _palette(accent1, bg);
 			}
 		}
-	}
+	
 
 	input[type="checkbox"] {
 		& + label {
@@ -1131,7 +1132,7 @@
 	@mixin wrapper($p) {
 		background-color: _palette($p, bg);
 		color: _palette($p, fg);
-
+	}
 		// Basic
 
 			strong, b {
@@ -1194,16 +1195,15 @@
 					background: _palette($p, bg);
 				}
 			}
-
-			input[type="checkbox"],
-			input[type="radio"], {
-				& + label {
+input[type="checkbox"],
+			input[type="radio"]{
+			& + label {
 					color: _palette($p, fg);
-
 					&:before {
 						background: _palette($p, border-bg);
 					}
 				}
+	}
 
 				&:checked + label {
 					&:before {
@@ -1211,7 +1211,7 @@
 						color: _palette($p, bg);
 					}
 				}
-			}
+			
 
 			::-webkit-input-placeholder {
 				color: _palette($p, fg-light) !important;
@@ -1316,7 +1316,7 @@
 				}
 			}
 
-	}
+	
 
 	.wrapper {
 		@include padding(6em, 0);
