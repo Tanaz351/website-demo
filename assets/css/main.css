@@ -3416,12 +3416,14 @@ input, select, textarea {
 			top: 0;
 			vertical-align: right;
 			width: 7em;
+			align-items: right;
 		}
 
 		@media screen and (max-width: 736px) {
 
 			#menu {
 				padding: 3em 1.5em;
+				align-self: start;
 			}
 
 		}
