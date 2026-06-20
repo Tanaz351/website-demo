@@ -3412,7 +3412,7 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
-			vertical-align: middle;
+			vertical-align: right;
 			width: 7em;
 		}
 
@@ -3430,6 +3430,7 @@ input, select, textarea {
 
 		body.is-menu-visible #page-wrapper:before {
 			display: block;
+			align-items: right;
 		}
 
 	body.is-menu-visible #menu {
@@ -3437,6 +3438,7 @@ input, select, textarea {
 		-webkit-transform: translateX(0);
 		-ms-transform: translateX(0);
 		transform: translateX(0);
+		align-items: right;
 	}
 
 /* Header */
