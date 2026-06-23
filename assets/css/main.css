@@ -4048,6 +4048,5 @@ input, select, textarea {
 	display: none;
 }
 .menuToggle:before {
-	content: "&#9776";
-	
+
 }
